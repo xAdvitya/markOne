@@ -64,7 +64,7 @@ const name =  readlineSync.question("whats's your name ")
 const askQuestion = function(questions){
 	
 	for(i=0;i<=4;i++){
-
+		console.log("\n_____________________________________\n")
 		console.log(questions[i].question+":\n");
 		console.log("a> "+questions[i].a);
 		console.log("b> "+questions[i].b);
@@ -95,7 +95,7 @@ const scoreCalc = function(input,correct){
 }
 
 const highscoreCalc = function(highScores,score,name){
-	
+	console.log("\n============================\n")
 	console.log(`name: ${name}`)
 	console.log(`score: ${score}`)
 
